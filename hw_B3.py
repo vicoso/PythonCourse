@@ -1,6 +1,6 @@
 a=input(' ')
 b=input(' ')
-a==b
+#a==b
 s=0
 for i in range(len(a)):
     if a[i]!=b[i]:
