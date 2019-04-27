@@ -1,4 +1,4 @@
-#есть такой варинат
+#есть такой варинат, там ошибка invalid syntax, но я не оч поняла почему
 import matplotlib.pyplot as plt
 import numpy as np
 n=np.random.poisson(10000)
@@ -8,7 +8,7 @@ axes.set_title('Poisson dstrb')
 axes.set_xlim((min(str((n), max(str(n)))
 plt.show()
                    
-#и такой вариант, но они оба какие-то полурабочие у меня
+#и такой вариант, он вроде рабочй, но мня смущает, что он разрешил ему оси проиндексировать, потому что в каком-то лсучае у меня была ошибка, что их нельзя индексировать..
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import *
